@@ -15,12 +15,24 @@ class App extends Component {
         <header className="app__header">
         <h2>Say Hello to Todays Weather Ismail</h2>
        </header>
-        <form>
+       Ismail
+        <div className="top">
+          <form>
           <input type="text" name="FirstName" value="Type in a city name"/> 
-          <input type="submit" value="Find Weather" this.Text= string.empty/>
+          <input type="submit" value="Find Weather"/>
+          </form>
+          </div>
+
+          <div class="temp">
+          <h3>Temperature</h3>
+          <h4>Humidity</h4>
+          <h4>Pressure</h4>
+          </div>
+
           
-        </form>
-        Ismail
+        <div>
+          
+        </div>
         <main className="app__main">
         </main>
       </div>
