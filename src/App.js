@@ -22,8 +22,8 @@ class App extends Component {
           <input type="submit" value="Find Weather"/>
           </form>
           </div>
-
-          <div class="temp">
+          <img src={img/weather-icons/storm.svg} alt="storm icon" />
+          <div className="temp">
           <h3>Temperature</h3>
           <h4>Humidity</h4>
           <h4>Pressure</h4>
